@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
     <title>Document</title>
 </head>
@@ -37,6 +41,154 @@
         </div>
       </nav>
 
+     <!-- Hero Section -->
+      <div class="hero-section text-center bg-image" style="background-image: url('assets/hero1.png'); background-size: cover; background-position: center;">
+        <div class="container-fluid p-5">
+            <h1 class="display-5 fw-bold text-white">Welcome to Your Wellness Sanctuary</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4 text-white">Embark on a journey of self-care and renewal. Find your balance and peace with our exclusive wellness services.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn btn-custom btn-lg px-4 gap-3">Book Now</button>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- End Hero Section -->
+
+      <!-- Our Services Section -->
+      <section id="services" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-5">Our Services</h2>
+          <div class="row text-center">
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="card h-100 shadow">
+                <img src="assets\yoga1.png" class="card-img-top" alt="Placeholder Image">
+                <div class="card-body">
+                  <h5 class="card-title">Yoga Classes</h5>
+                  <p class="card-text">Find your inner peace and build strength with our guided yoga sessions for all skill levels.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="card h-100 shadow">
+                <img src="assets\fud1.png" class="card-img-top" alt="Placeholder Image">
+                <div class="card-body">
+                  <h5 class="card-title">Nutritional Advice</h5>
+                  <p class="card-text">Receive personalized dietary plans from our experts to fuel your body and complement your wellness journey.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="card h-100 shadow">
+                <img src="assets\mental1.png" class="card-img-top" alt="Placeholder Image">
+                <div class="card-body">
+                  <h5 class="card-title">Mental Health Support</h5>
+                  <p class="card-text">Our compassionate professionals provide a safe space to talk and develop strategies for mental clarity.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+              <div class="card h-100 shadow">
+                <img src="assets\yak1.png" class="card-img-top" alt="Placeholder Image">
+                <div class="card-body">
+                  <h5 class="card-title">Wellness Programs</h5>
+                  <p class="card-text">Join our comprehensive programs designed to foster holistic well-being and long-lasting healthy habits.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Our Services Section -->
+
+      <!-- Wellness Tips Section -->
+      <section id="wellness-tips" class="py-5 bg-light">
+        <div class="container">
+          <h2 class="mb-5">Wellness Tips</h2>
+          <div class="row">
+            <div class="col-md-8">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><strong>Stay Hydrated:</strong> Drink plenty of water throughout the day to maintain energy and support bodily functions.</li>
+                <li class="list-group-item"><strong>Mindful Movement:</strong> Incorporate at least 30 minutes of activity you enjoy into your daily routine.</li>
+                <li class="list-group-item"><strong>Prioritize Sleep:</strong> Aim for 7-9 hours of quality sleep per night to help your body rest and repair.</li>
+                <li class="list-group-item"><strong>Eat Nourishing Foods:</strong> Fill your plate with a variety of colorful fruits, vegetables, and whole grains.</li>
+                <li class="list-group-item"><strong>Practice Mindfulness:</strong> Take a few minutes each day for deep breathing or meditation to reduce stress.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Wellness Tips Section -->
+
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Clients Say</h2>
+            <div id="testimonialCarousel" class="carousel slide testimonial-carousel-container" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets\head1.png" class="d-block w-100" alt="Testimonial background">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>"The most relaxing experience I've had in years. Truly a sanctuary."</h5>
+                      <p>- Bonnie Red</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets\head2.png" class="d-block w-100" alt="Testimonial background">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>"I left feeling completely rejuvenated; the staff are absolute experts."</h5>
+                      <p>- Vanglorius Dewenty</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets\head3.png" class="d-block w-100" alt="Testimonial background">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>"A perfect escape from the city. I can't wait to come back!"</h5>
+                      <p>- Anita Anitata</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets\head4.png" class="d-block w-100" alt="Testimonial background">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>"Has anyone seen my keys?"</h5>
+                      <p>- Danger McBullets</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
+    
+      <!-- Footer -->
+      <footer class="site-footer py-4 mt-auto">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <span>Seven Seas Spa</span>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+      </footer>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
